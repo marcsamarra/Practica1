@@ -1,16 +1,63 @@
 .titol {
     font-size: 2rem;
-    color: red;
+    color: darkred;
+    padding: 10px;
+    margin: 10px;
     }
 
+.subtitol {
+    color:darkcyan;
+}
+
 .grid {
-    
+   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     background-color: black;
     color : white;
-    
-
+    padding: 10px;
+    margin-bottom: 4px;
 }
 
+.bloc {
+    background-color: lightgray;
+    margin: 5px;
+    display: flexbox;
+    border: 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
 
+.formulari {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 5px;
+    border: 1px;
+    border-radius: 10px;
+    display: flexbox;
+}
+
+.camp {
+    margin: 10px;
+    padding: 2px;
+    border-style:inset;
+}
+
+.taula {
+    width: 100%;
+    border-style :none;
+    background-color: lightcyan
+}
+
+.cos {
+    display: grid;
+}
+
+.imatge {
+    height: 1fr;
+    align-content:center;
+}
+
+.grid a {
+    color :beige
+}

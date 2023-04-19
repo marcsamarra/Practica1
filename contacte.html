@@ -11,47 +11,45 @@
 
     <section id="menu" class="grid">
         <style>
-        a {
-            color :beige
-        } 
+       
         </style>
-             <a href="index.html">Inici</a>
+            <a href="index.html">Inici</a>
             <a href="cv.html">CV</a>
             <a href="contacte.html">Contacte</a>
     </section>
     
     
-<div id="titol"></div>
-<img src="assets/imatges/sunrise.jpg"  alt="" width="100%">
-    
-<form action="">
-    
-    <div>
-        <label for=”camp_nom”>Escriu el teu nom</label>
-        <input id=”camp_nom” type=”text”>
-    </div>
-    <br>
-    <div>
-        <label for=”camp_email”>Escriu el teu email</label>
-        <input id=”camp_email” type=”text”>
-    </div>
-<br>
-    <div>
-        <label for=”camp_comentaris”>Comentaris</label>
-        <span width="100">
-            <input id=”camp_comentaris” type="text" size="100"></div>
-        </span>
-<br>
-    <div>
+    <section class="cos">
+        <h1 class="titol">Contacte</h1>
+        <div id="titol"></div>
+        <img src="assets/imatges/sunrise.jpg" alt="sortida de sol a muntanya" class="imatge" width="100%">
+            
+        <form action="" class="formulari">
+            
+            <div class="camp">
+                <label for=”camp_nom”>Escriu el teu nom</label>
+                <input id=”camp_nom” type=”text”>
+            </div>
+            
+            <div class="camp">
+                <label for=”camp_email”>Escriu el teu email</label>
+                <input id=”camp_email” type=”text”>
+            </div>
         
-        <input id=”camp_email” type="checkbox" >Accepto el tractament de les meves dades</imput>
-    </div>
-    <br>
+            <div class="camp">
+                <label for=”camp_comentaris”>Comentaris</label>
+                <span>
+                    <input id=”camp_comentaris” type="text"></div>
+                </span>
+        
+            <div class="camp">
+                <input id=”camp_email” class="check" type="checkbox" >Accepto el tractament de les meves dades</input>
+            </div>
+            
 
-    <button>Enviar</button>
-</form>
-
-
+            <button>Enviar</button>
+        </form>
+    </section>
 
 </body>
 </html>
